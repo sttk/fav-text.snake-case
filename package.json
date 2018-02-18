@@ -1,6 +1,6 @@
 {
   "name": "@fav/text.snake-case",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Converts a string into snake case.",
   "main": "index.js",
   "files": [
