@@ -56,20 +56,20 @@ If *text* is a string which is composed of either lower case characters and nume
 
 ***NOTE:*** *This function doesn't check data types of the arguments, and assumes that they are given as per the specific data types.*
 
-### Parameters:
+#### Parameters:
 
 | Parameter |  Type  | Description                          |
 |:----------|:------:|:-------------------------------------|
 | *text*    | string | A string to be converted.            |
 
-### Returns:
+#### Returns:
 
 A string converted into snake case.
 
 **Type:** string
 
 
-### <u>snakeCase.split(text) : Array</u>
+#### <u>snakeCase.split(text) : Array</u>
 
 Splits a string into alphanumeric words.
 
@@ -79,32 +79,32 @@ If *text* is a string which is composed of either lower case characters and nume
 
 ***NOTE:*** *This function doesn't check data types of the arguments, and assumes that they are given as per the specific data types.*
 
-#### Parameters:
+##### Parameters:
 
 | Parameter |  Type  | Description                          |
 |:----------|:------:|:-------------------------------------|
 | *text*    | string | A string to be splitted.             |
 
-#### Returns:
+##### Returns:
 
 An array of splitted words.
 
 **Type:** Array
 
 
-### <u>snakeCase.join(words) : string</u>
+#### <u>snakeCase.join(words) : string</u>
 
 Joins alphanumeric words and creates a snake case string.
 
 ***NOTE:*** *This function doesn't check data types of the arguments, and assumes that they are given as per the specific data types.*
 
-#### Parameters:
+##### Parameters:
 
 | Parameter |  Type  | Description                                     |
 |:----------|:------:|:------------------------------------------------|
 | *words*   | Array  | An array of an alphanumeric words to be joined. |
 
-#### Returns:
+##### Returns:
 
 A snake case string.
 
